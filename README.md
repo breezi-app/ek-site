@@ -2,6 +2,7 @@
 
 This repository contains the static HTML version of the Empowerkit website, converted from WordPress for hosting on GitHub Pages.
 
+
 ## 📁 Structure
 
 ```
@@ -16,6 +17,7 @@ docs/
 └── .nojekyll               # Tells GitHub Pages to serve as-is
 ```
 
+
 ## 📝 Pages
 
 - **Home**: Main landing page with features and testimonials
@@ -24,22 +26,25 @@ docs/
 - **Blog**: Single blog post about MLM compliance (`/blog/`)
 - **Terms of Use**: Legal terms (`/terms-of-use/`)
 
-## 🔧 How to Update Content
+## 🔧 Since this is a static HTML site, you'll need to edit the HTML files directly
 
-Since this is a static HTML site, you'll need to edit the HTML files directly
+
 
 ### Updating Images
 
 1. Add new images to `docs/images/` or `docs/wp-content/uploads/2025/08/`
 2. Update the image path in the HTML file
 
+
 ### Updating Contact Email
 
 The contact email is currently set to `support@empowerkit.com` in `/docs/contact-us/index.html`.
 
+
 ## 📧 Contact
 
 For support and inquiries: support@empowerkit.com
+
 
 ## 📜 License
 
