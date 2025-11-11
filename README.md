@@ -10,10 +10,10 @@ docs/
 ├── packages/               # Pricing page
 ├── contact-us/             # Contact page (with support@empowerkit.com)
 ├── blog/                   # Blog post
-├── terms-of-use/          # Terms of use
-├── wp-content/            # WordPress assets (CSS, JS, images)
-├── wp-includes/           # WordPress core assets
-└── .nojekyll              # Tells GitHub Pages to serve as-is
+├── terms-of-use/           # Terms of use
+├── wp-content/             # WordPress assets (CSS, JS, images)
+├── wp-includes/            # WordPress core assets
+└── .nojekyll               # Tells GitHub Pages to serve as-is
 ```
 
 ## 📝 Pages
@@ -26,33 +26,16 @@ docs/
 
 ## 🔧 How to Update Content
 
-Since this is a static HTML site, you'll need to edit the HTML files directly:
-
-### Updating Text Content
-
-1. Navigate to the page you want to edit in the `docs/` directory
-2. Open the `index.html` file in that directory
-3. Find the text you want to change (search for the current text)
-4. Update the text
-5. Commit and push changes:
-   ```bash
-   git add docs/
-   git commit -m "Update content on [page name]"
-   git push origin main
-   ```
+Since this is a static HTML site, you'll need to edit the HTML files directly
 
 ### Updating Images
 
 1. Add new images to `docs/images/` or `docs/wp-content/uploads/2025/08/`
-2. Update the image path in the HTML file:
-   ```html
-   <img src="/images/your-new-image.jpg" alt="Description">
-   ```
-3. Commit and push changes
+2. Update the image path in the HTML file
 
 ### Updating Contact Email
 
-The contact email is currently set to `support@empowerkit.com` in `/docs/contact-us/index.html`. To change it:
+The contact email is currently set to `support@empowerkit.com` in `/docs/contact-us/index.html`.
 
 ## 📧 Contact
 
