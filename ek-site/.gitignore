@@ -1,0 +1,23 @@
+# Backup directories
+empowerkit-backup/
+empowerkit-site/
+
+# Cleanup scripts
+cleanup.py
+replace_forms.py
+
+# System files
+.DS_Store
+*.pyc
+__pycache__/
+
+# HTTrack files
+hts-cache/
+*.log
+backblue.gif
+fade.gif
+
+# Node modules (if any)
+node_modules/
+package.json
+package-lock.json
