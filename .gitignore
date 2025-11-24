@@ -1,3 +1,6 @@
+# Git directory
+.git/
+
 # Backup directories
 empowerkit-backup/
 empowerkit-site/
@@ -21,3 +24,6 @@ fade.gif
 node_modules/
 package.json
 package-lock.json
+
+# Claude Code documentation
+CLAUDE.md
